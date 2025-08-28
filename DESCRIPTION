@@ -1,0 +1,17 @@
+Package: examdata
+Title: Synthetic Multiple-Choice Exam Data Generation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ylva", "Matejko", 
+    email = "ylvazm@uio.no", 
+    role = c("aut", "cre"))
+Description: examdata generates fully synthetic multiple-choice exam data using beta-distributed  
+    latent abilities. Given a specified number of students, exams, and items per exam,  
+    it simulates individual item scores. The package provides flexible parameter settings  
+    to adjust the ability distribution, making it useful for training, algorithm  
+    development, and educational data modeling.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2.9000
