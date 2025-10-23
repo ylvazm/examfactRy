@@ -10,8 +10,7 @@ Description: examdata generates fully synthetic multiple-choice exam data using 
     it simulates individual item scores. The package provides flexible parameter settings  
     to adjust the ability distribution, making it useful for training, algorithm  
     development, and educational data modeling.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2.9000
+RoxygenNote: 7.3.3
