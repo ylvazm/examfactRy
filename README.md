@@ -2,15 +2,10 @@
 
 ## Synthetic Multiple-Choice Exam Data Generation
 
-**Purpose**: The **examdata** package generates *fully synthetic multiple-choice exam data* using beta-distributed latent abilities.  
+**Purpose**: The **examdata** package generates **fully synthetic multiple-choice exam data** using beta-distributed latent abilities.  
 
-It allows you to simulate realistic student-level item responses for arbitrary exam structures, useful for:
-
- 
-The package provides flexible parameter settings  
-to adjust the ability distribution, making it useful for training, algorithm  
-development, and educational data modeling.
-
+It allows you to simulate realistic student-level item responses for arbitrary exam structures by providing flexible parameter settings to adjust the ability distribution
+This makes it useful for:
 - Testing scoring algorithms  
 - Training data analysis workflows  
 - Educational data modeling and teaching examples  
@@ -74,17 +69,6 @@ For more info on the underlying response distributions, [check here](...)
 
 For more info on the the psychometric properties of the generated data, [check here](...)
 
-
----
-
-## Dependencies
-TBA
-
----
-
-## Known Issues
-TBA
-
 ---
 
 ## Authors
@@ -99,20 +83,20 @@ If you use `examdata` in your work, please cite it as:
 
 TBA
 
---
+---
 
 ## Contact Info
 
 Suggestions, issues, and pull requests are welcome on [this project's GitHub Repository](https://github.com/ylvazm/examdata)
 Inquiries can be mailed to [Ylva Matejko](ylva.matejko@gmx.de)
 
---
+---
 
 ## License
 
 This repository is licensed under the [MIT License](LICENSE.md).
 
---
+---
 
 
 
