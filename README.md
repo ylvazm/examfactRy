@@ -1,8 +1,8 @@
-# examdata
+# examfactRy
 
 ## Synthetic Multiple-Choice Exam Data Generation
 
-**Purpose**: The **examdata** package generates **fully synthetic multiple-choice exam data** using beta-distributed latent abilities.  
+**Purpose**: The **examfactRy** package generates **fully synthetic multiple-choice exam data** using beta-distributed latent abilities.  
 
 It allows you to simulate realistic student-level item responses for arbitrary exam structures by providing flexible parameter settings to adjust the ability distribution
 This makes it useful for:
@@ -21,7 +21,7 @@ Users can specify:
 
 ## Installation
 
-You can install the development version of `examdata` from GitHub:
+You can install the development version of `examfactRy` from GitHub:
 
 1. Open R or RStudio
 
@@ -29,7 +29,7 @@ You can install the development version of `examdata` from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("ylvazm/examdata")
+devtools::install_github("ylvazm/examfactRy")
 
 ```
 3. Execute
@@ -41,7 +41,7 @@ devtools::install_github("ylvazm/examdata")
 If you want to create dataset representing the responses of 30 student on one exam
 with 15 questions, using the default shape parameters for the response distribution:
 
-```library(examdata)
+```library(examfactRy)
 
 set.seed(123)
 df <- GenerateData(n_stud = 30, n_exam = 1, n_item = 15)
@@ -79,7 +79,7 @@ Ylva Matejko (2025)
 
 ## Recommended Citation
 
-If you use `examdata` in your work, please cite it as: 
+If you use `examfactRy` in your work, please cite it as: 
 
 TBA
 
@@ -87,7 +87,7 @@ TBA
 
 ## Contact Info
 
-Suggestions, issues, and pull requests are welcome on [this project's GitHub Repository](https://github.com/ylvazm/examdata)
+Suggestions, issues, and pull requests are welcome on [this project's GitHub Repository](https://github.com/ylvazm/examfactRy)
 Inquiries can be mailed to [Ylva Matejko](ylva.matejko@gmx.de)
 
 ---
