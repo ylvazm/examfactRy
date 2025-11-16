@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: examfactRy
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ylva
+    family-names: Matejko
+    email: ylva.matejko@gmx.de
+  - given-names: Stefan
+    family-names: Schauber
+    email: stefan.schauber@medisin.uio.no
+    affiliation: Universitetet i Oslo
+repository-code: 'https://github.com/ylvazm/examfactRy'
+abstract: >-
+  The examfactRy package generates fully synthetic
+  multiple-choice exam data using beta-distributed latent
+  abilities. It allows you to simulate realistic
+  student-level item responses for arbitrary exam structures
+  by providing flexible parameter settings to adjust the
+  ability distribution This makes it useful for testing
+  scoring algorithms, training data analysis workflows and
+  educational data modeling and teaching examples.
+keywords:
+  - R package
+  - synthetic data
+  - synthetic exam
+  - exam data
+license: MIT
+version: 0.0.0.9000
+date-released: '2025-11-15'
