@@ -19,6 +19,13 @@ Users can specify:
 
 ---
 
+## Version
+
+Current Version: 0.0.0.9000
+Note: This is a dev version of our package. Testing is still ongoing.
+
+---
+
 ## Installation
 
 You can install the development version of `examfactRy` from GitHub:
@@ -81,7 +88,7 @@ Ylva Matejko (2025)
 
 If you use `examfactRy` in your work, please cite it as: 
 
-TBA
+Matejko, Y., & Schauber, S. (2025). examfactRy (Version 0.0.0.9000) [Computer software]. https://github.com/ylvazm/examfactRy
 
 ---
 
