@@ -2,12 +2,14 @@ Package: examfactRy
 Title: Synthetic Multiple-Choice Exam Data Generation
 Version: 0.0.0.9000
 Authors@R: 
+    c(
     person("Ylva", "Matejko", 
     email = "ylva.matejko@gmx.de", 
-    role = c("aut", "cre"))
+    role = c("aut", "cre")),
     person("Stefan", "Schauber", 
     email = "stefan.schauber@medisin.uio.no", 
     role = c("ctb", "rev"))
+    )
 Description: examfactRy generates fully synthetic multiple-choice exam data using beta-distributed  
     latent abilities. Given a specified number of students, exams, and items per exam,  
     it simulates individual item scores. The package provides flexible parameter settings  
