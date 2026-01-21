@@ -7,17 +7,14 @@
 .GenerateResponseData(item_data)
 }
 \arguments{
-\item{exam_data}{List. Each element is a numeric exam score (between 0 and 1) for a student.}
-
-\item{n_item}{Numeric value. Number of items per exam.}
+\item{item_data}{List. Each element is a numeric exam score (between 0 and 1) for a student.}
 }
 \value{
-A numeric vector containing binary item scores (0/1) for a single exam, where the
-number of 1's approximates the respective exam score. In the context of the package,
-this output is used to construct a matrix with student responses.
+A data.frame containing the capital letter responses for as many exams as
+specified in GenerateData, where the number of correct responses approximates the respective ability.
 }
 \description{
-For each item score provided in \code{item_data}, this function assigns a multple choice
+For each item score provided in \code{item_data}, this function assigns a multiple choice
 response between A and D. A score of 1 is always transformed into A, whereas
 a score of 0 is transformed into B, C or D by random.
 }
